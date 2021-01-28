@@ -386,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   margin-top: 8%;
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  /* background: url("../img/hero-bg.jpg"); */
   position: relative;
   padding: 100px 0 0 0;
 }
@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   background: #F96332;
   position: absolute;
-  opacity: 0.91;
+  /* opacity: 0.91; */
   bottom: 0;
   top: 0;
   left: 0;
