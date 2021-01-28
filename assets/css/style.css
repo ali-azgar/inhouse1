@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .first-header {
   margin-top: 80px;
+  max-width: 900px !important;
 }
 
 @media screen and (max-width: 1400px) {
@@ -111,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   letter-spacing: 1px;
   /* font-family: 'Alegreya Sans SC', sans-serif; */
-  color: #10248C !important;
+  color: #F96332 !important;
   margin-left: 100px;
 }
 
@@ -152,7 +153,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-right: 15px;
 }
 
 .nav-menu > ul > li {
@@ -460,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #10248C;
   border-bottom: 4px solid #10248C;
   font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 60px;
+  font-size: 55px;
   letter-spacing: 2px;
   line-height: 65px;
 }
