@@ -106,13 +106,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #header .logo h1 {
-  font-size: 33px;
+  font-size: 30px;
   margin-top: 10px;
-  margin-bottom: -15px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 1px;
   /* font-family: 'Alegreya Sans SC', sans-serif; */
-  color: #F96332 !important;
+  color: #10248C !important;
+  margin-left: 100px;
 }
 
 #header .techno {
