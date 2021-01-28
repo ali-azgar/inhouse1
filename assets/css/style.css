@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .first-header {
   margin-top: 80px;
-  max-width: 900px !important;
+  max-width: 1000px !important;
 }
 
 @media screen and (max-width: 1400px) {
@@ -104,7 +104,9 @@ h1, h2, h3, h4, h5, h6 {
 } */
 
 
-
+.mr-auto{
+  margin-right: 400px !important;
+}
 
 #header .logo h1 {
   font-size: 30px;
@@ -458,11 +460,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: #10248C;
-  border-bottom: 4px solid #10248C;
-  font-family: "Alegreya Sans SC", sans-serif;
+  /* border-bottom: 4px solid #10248C; */
   font-size: 55px;
-  letter-spacing: 2px;
-  line-height: 65px;
+line-height: 70px;
 }
 
 #hero h2 {
