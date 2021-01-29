@@ -93,9 +93,9 @@ h1, h2, h3, h4, h5, h6 {
   .first-header{
     margin-top: 80px;
   }
-  #header .logo h1 {
+  /* #header .logo h1 {
     margin-left: 80px !important;
-  }
+  } */
 }
 
 
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 } */
 @media screen and (max-width: 1400px) {
   .mr-auto{
-    margin-right: 420px !important;
+    margin-right: 500px !important;
   }
   .first-header {
     max-width: 1100px !important;
@@ -1062,7 +1062,6 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Nunito Sans", sans-serif;
   color: #10248C;
 }
 
@@ -1082,8 +1081,8 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
   margin-bottom: 5px;
   color: #10248C;
 }
@@ -1091,7 +1090,8 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 600;
   color: #10248C;
 }
 
