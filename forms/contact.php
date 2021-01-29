@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  $receiving_email_address = 'aliazgar.designer@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -26,12 +26,19 @@
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
   $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
+    'host' => 'smtp.gmail.com',
+    'username' => 'aliazgar.designer@gmail.com',
+    'password' => '6222@azgar',
     'port' => '587'
   );
   */
+
+  $contact->smtp = array(
+    'host' => 'smtp.gmail.com',
+    'username' => 'aliazgar.designer@gmail.com',
+    'password' => '6222@azgar',
+    'port' => '587'
+  );
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
